@@ -1,0 +1,2 @@
+Name,Type,Min.,Max.,Default,Short Description
+score,Integer,0,100,30,Starting endowment

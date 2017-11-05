@@ -1,0 +1,28 @@
+circle[sender="true"] {
+  fill: green;
+}
+
+circle[receiver="true"] {
+  fill: white;
+  stroke-width:15px;
+}
+
+circle[receiver="true"][firstRoundAccept="true"]{
+	stroke: #2F6CF4;
+}
+
+circle[receiver="true"][firstRoundAccept="false"]{
+	stroke: #F4280A;
+}
+
+circle[receiver="true"][secondRoundAccept="true"]{
+	fill: #2F6CF4;
+}
+
+circle[receiver="true"][secondRoundAccept="false"]{
+	fill: #F4280A;
+}
+
+text.opponent {
+  display: none;
+}
